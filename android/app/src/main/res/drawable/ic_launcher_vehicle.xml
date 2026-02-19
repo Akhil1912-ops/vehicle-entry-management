@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Background circle -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0"/>
+    <!-- Car body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,52 L32,42 L76,42 L80,52 L76,52 L76,58 L32,58 L32,52 Z"/>
+    <!-- Car roof -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,42 L38,32 L70,32 L70,42 Z"/>
+    <!-- Wheels -->
+    <path
+        android:fillColor="#1E3C72"
+        android:pathData="M34,56 m-4,0 a4,4 0,1 1,8 0 a4,4 0,1 1,-8 0"/>
+    <path
+        android:fillColor="#1E3C72"
+        android:pathData="M74,56 m-4,0 a4,4 0,1 1,8 0 a4,4 0,1 1,-8 0"/>
+</vector>

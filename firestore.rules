@@ -1,0 +1,13 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Vehicles: plate number as doc ID
+    match /vehicles/{plateNumber} {
+      allow read, write: if true;
+    }
+    // Entry logs: auto-generated doc IDs
+    match /entryLogs/{logId} {
+      allow read, write: if true;
+    }
+  }
+}

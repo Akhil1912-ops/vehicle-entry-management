@@ -1,0 +1,9 @@
+fastapi>=0.115.0
+uvicorn>=0.32.0
+sqlalchemy>=2.0.36
+python-dateutil>=2.9.0
+pytz>=2024.2
+python-multipart>=0.0.12
+
+# For migrate_to_firebase.py (optional)
+firebase-admin>=6.6.0

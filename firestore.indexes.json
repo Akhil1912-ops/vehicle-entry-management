@@ -1,0 +1,30 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "entryLogs",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "plateNumber", "order": "ASCENDING" },
+        { "fieldPath": "entryTime", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "entryLogs",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "plateNumber", "order": "ASCENDING" },
+        { "fieldPath": "entryTime", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "entryLogs",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "plateNumber", "order": "ASCENDING" },
+        { "fieldPath": "exitTime", "order": "ASCENDING" },
+        { "fieldPath": "entryTime", "order": "DESCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

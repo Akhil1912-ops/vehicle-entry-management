@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="28sp"
+            android:textColor="@color/text_primary"
+            android:textStyle="bold"
+            android:letterSpacing="-0.02"
+            android:layout_marginTop="48dp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Campus vehicle tracking"
+            android:textSize="15sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="48dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_rounded_card"
+            android:padding="16dp"
+            android:elevation="2dp">
+
+            <Button
+                android:id="@+id/btnEntry"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="@string/entry_gate"
+                android:textSize="16sp"
+                android:textColor="@color/on_primary"
+                android:background="@drawable/bg_primary_button"
+                android:backgroundTint="@null"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/btnExit"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="@string/exit_gate"
+                android:textSize="16sp"
+                android:textColor="@color/on_primary"
+                android:background="@drawable/bg_primary_button"
+                android:backgroundTint="@null"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/btnAdmin"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="@string/admin_dashboard"
+                android:textSize="16sp"
+                android:textColor="@color/primary"
+                android:background="@drawable/bg_outline_button"
+                android:backgroundTint="@null" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
