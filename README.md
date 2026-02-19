@@ -2,6 +2,9 @@
 
 Android app for tracking vehicle entries and exits at campus gates. Uses **Firebase Firestore** for cloud storage and real-time sync.
 
+### 📲 Download for Testing
+**[Download VehicleEntry.apk](https://github.com/Akhil1912-ops/vehicle-entry-management/releases/download/v1.0/VehicleEntry.apk)** — Install on Android device for testing.
+
 ## 📱 What's This?
 
 Native Android app for security guards to:
